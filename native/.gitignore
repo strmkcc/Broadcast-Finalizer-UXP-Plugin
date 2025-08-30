@@ -1,0 +1,11 @@
+# Rust
+target/
+*.rs.bk
+
+# Node
+node_modules/
+index.node
+*.log
+
+# Mac
+.DS_Store

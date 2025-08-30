@@ -1,0 +1,54 @@
+{
+  "manifestVersion": 5,
+  "id": "com.mvp.broadcastfinalizer",
+  "name": "Broadcast Finalizer",
+  "version": "0.1.0",
+  "main": "index.html",
+  "host": [
+    {
+      "app": "premierepro",
+      "minVersion": "22.0"
+    }
+  ],
+  "entryPoints": [
+    {
+      "type": "panel",
+      "id": "com.mvp.broadcastfinalizer.panel",
+      "label": {
+        "default": "Broadcast Finalizer"
+      },
+      "icons": [
+        {
+          "width": 23,
+          "height": 23,
+          "path": "icons/icon_dark.png",
+          "scale": [
+            1,
+            2
+          ],
+          "theme": [
+            "darkest",
+            "dark"
+          ]
+        },
+        {
+          "width": 23,
+          "height": 23,
+          "path": "icons/icon_light.png",
+          "scale": [
+            1,
+            2
+          ],
+          "theme": [
+            "lightest",
+            "light"
+          ]
+        }
+      ]
+    }
+  ],
+  "requiredPermissions": {
+    "localFileSystem": "fullAccess",
+    "launchProcess": "local"
+  }
+}

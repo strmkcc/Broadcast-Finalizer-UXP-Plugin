@@ -1,0 +1,13 @@
+{
+  "name": "broadcast-finalizer-native",
+  "version": "0.1.0",
+  "description": "Native DSP module for the Broadcast Finalizer UXP plugin.",
+  "main": "index.node",
+  "scripts": {
+    "build": "neon build --release"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "neon-cli": "^0.10.1"
+  }
+}
